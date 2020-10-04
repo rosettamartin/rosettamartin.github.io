@@ -149,9 +149,11 @@
 	for (i=0; i<evidence.length; i++) {
 		document.getElementById('evidenceTable').insertRow(-1).innerHTML = `
 			<td>
-				<input type="checkbox" name="checkbox${i}" id="checkbox${i}" onchange="checkboxChecked()" />
+				<label>
+					<input type="checkbox" name="checkbox${i}" id="checkbox${i}" onchange="checkboxChecked()" />
+					${evidence[i]}
+				</label>
 			</td>
-			<td>${evidence[i]}</td>
 		`
 	}
 	
