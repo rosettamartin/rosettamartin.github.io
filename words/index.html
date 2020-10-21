@@ -17,8 +17,8 @@ function submit() {
 	
 	var result = "";
 	for (i=0; i < word1.length && i < word2.length; i++) {
-		var index1 = alphabet.indexOf(word1[i]);
-		var index2 = alphabet.indexOf(word2[i]);
+		var index1 = alphabet.indexOf(word1[i].toLowerCase());
+		var index2 = alphabet.indexOf(word2[i].toLowerCase());
 		var newindex = Math.floor((index1 + index2) / 2);
 		result = result.concat(alphabet[newindex]);
 	}
