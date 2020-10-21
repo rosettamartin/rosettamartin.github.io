@@ -1,0 +1,28 @@
+<h1>Marina what did you even need this for</h1>
+<label>First word:</label>
+<input id="worda">
+<br>
+<label>Second word:</label>
+<input id="wordb">
+<br>
+<input type="button" value="Submit" onclick="submit()">
+<br>
+<h2 id="result"></h2>
+
+<script>
+function submit() {
+	var alphabet = "abcdefghijklmnopqrstuvwxyz";
+	var word1 = document.getElementById("worda").value;
+	var word2 = document.getElementById("wordb").value;
+	
+	var result = "";
+	for (i=0; i < word1.length && i < word2.length; i++) {
+		var index1 = alphabet.indexOf(word1[i]);
+		var index2 = alphabet.indexOf(word2[i]);
+		var newindex = Math.floor((index1 + index2) / 2);
+		result = result.concat(alphabet[newindex]);
+	}
+	
+	document.getElementById("result").innerHTML = result;
+}
+</script>
