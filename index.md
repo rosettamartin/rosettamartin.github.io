@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+# Projects
 
-You can use the [editor on GitHub](https://github.com/rosettamartin/rosettamartin.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Wheel of Fortune
 
-### Markdown
+<img align="right" width="25%" src="https://i.imgur.com/f6x8j4X.gif">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*Host a game of Wheel of Fortune.*
+<br>
+[[View on GitHub](https://github.com/pattymartin/wheel-of-fortune)]
 
-```markdown
-Syntax highlighted code block
+`Python` `Kivy`
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## Subjective Sort
 
-1. Numbered
-2. List
+<img align="right" width="25%" src="https://i.imgur.com/2rIeJCW.png">
 
-**Bold** and _Italic_ and `Code` text
+*Sort items based on user preference.*
+<br>
+[[More info](https://pattymartin.github.io/subjective-sort)]
+[[View on GitHub](https://github.com/pattymartin/subjective-sort)]
 
-[Link](url) and ![Image](src)
-```
+`Python` `Kivy`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+---
 
-### Jekyll Themes
+<img align="right" width="25%" src="https://i.imgur.com/dpVOpvP.png">
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rosettamartin/rosettamartin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Morse Code IME
 
-### Support or Contact
+*Type in Morse code on the Samsung Galaxy Watch.*
+<br>
+[[View on GitHub](https://github.com/pattymartin/morse-ime)]
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+`C` `Tizen Studio`
+
+---
+
+## Discord Bots
+
+*View my Discord bots on [my page at Glitch.com](
+https://glitch.com/@pattymartin).*
+
+#### Translate
+
+*Automatically translate Discord messages.*
+
+`Javascript` `Discord API` `Yandex Translate API`
+
+#### Pocket
+
+*Keep a user's [Pocket](https://getpocket.com/) up to date.*
+
+`Javascript` `Discord API` `Pocket API`
+
+#### Roleplaying
+
+*Roleplay chat as a character in your Discord server.*
+
+`Javascript` `Discord API`
